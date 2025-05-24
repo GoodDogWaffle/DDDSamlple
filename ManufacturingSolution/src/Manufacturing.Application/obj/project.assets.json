@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Manufacturing.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Manufacturing.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Manufacturing.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Manufacturing.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Manufacturing.Domain/Manufacturing.Domain.csproj",
+      "msbuildProject": "../Manufacturing.Domain/Manufacturing.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Manufacturing.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\wada_yuki.NISSEICOM\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Repository\\05.systemdesign\\上流\\Api\\Application\\ManufacturingSolution_Vivid\\src\\Manufacturing.Application\\Manufacturing.Application.csproj",
+      "projectName": "Manufacturing.Application",
+      "projectPath": "C:\\Repository\\05.systemdesign\\上流\\Api\\Application\\ManufacturingSolution_Vivid\\src\\Manufacturing.Application\\Manufacturing.Application.csproj",
+      "packagesPath": "C:\\Users\\wada_yuki.NISSEICOM\\.nuget\\packages\\",
+      "outputPath": "C:\\Repository\\05.systemdesign\\上流\\Api\\Application\\ManufacturingSolution_Vivid\\src\\Manufacturing.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\wada_yuki.NISSEICOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Repository\\02.NewSolution\\local-nuget\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/gosfx/NewSolution/_packaging/gosfx-nuget-dev/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/gosfx/NewSolution/_packaging/gosfx-nuget/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\Repository\\05.systemdesign\\上流\\Api\\Application\\ManufacturingSolution_Vivid\\src\\Manufacturing.Domain\\Manufacturing.Domain.csproj": {
+              "projectPath": "C:\\Repository\\05.systemdesign\\上流\\Api\\Application\\ManufacturingSolution_Vivid\\src\\Manufacturing.Domain\\Manufacturing.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.116/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
